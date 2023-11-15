@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#detectib {
+    float: left;
+}
+
+#clientes {
+    margin: 0 auto;
+}
+
+#menu {
+    float: right;
+}
+
+.menu-icon {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+#layout {
+    display: flex;
+}
+
+#users {
+    flex: 1;
+    padding: 20px;
+}
+
+.user {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#form {
+    flex: 1;
+    padding: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-group-left {
+    float: left;
+}
+
+.form-group-right {
+    float: right;
+}
+
+.form-group-left, .form-group-right {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
