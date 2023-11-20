@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    background-color: #2A4CBB;
 }
 
 header {
@@ -8,25 +9,33 @@ header {
     color: white;
     padding: 10px;
     text-align: center;
+    height: 50px;
+    line-height: 50px;
 }
 
 #detectib {
+    font-size: 1.5em;
     float: left;
 }
 
 #clientes {
+    font-size: 1.5em;
     margin: 0 auto;
+    vertical-align: middle;
 }
 
 #menu {
+    position: absolute;
     float: right;
+    top: 2%;
+    left: 98%;
 }
 
 .menu-icon {
-    width: 35px;
+    width: 30px;
     height: 5px;
-    background-color: #333;
-    margin: 6px 0;
+    background-color: white;
+    margin-bottom: 6px;
     transition: 0.4s;
 }
 
@@ -36,13 +45,15 @@ header {
 
 #users {
     flex: 1;
-    padding: 20px;
+    margin: 20px;
 }
 
 .user {
+    background-color: #718BE0;
     border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 10px;
+    border: 2px solid black;
 }
 
 #form {
@@ -70,10 +81,36 @@ form {
 label {
     display: block;
     margin-bottom: 5px;
+    color: white;
 }
 
 input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
+    background-color: #718BE0;
+    border: 2px solid black;
+}
+
+.icons {
+    width: 100%;
+    background-color: red;
+}
+
+.icons button {
+    float: right;
+}
+
+.user p {
+    color: white;
+}
+
+.save {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: white;
+    background-color: #718BE0;
+    border: 2px solid black;
 }
